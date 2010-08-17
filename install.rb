@@ -1,9 +1,11 @@
 # Install hook code here
 
+puts "creating secret"
+
 puts "Copying files..."
 
 [
-  {:src => "public/javascripts/clearcaptcha/clearcaptcha.js"},
+  {:src => "public/javascripts/clearcaptcha.js"},
   {:src => "defaults/clearcaptcha.yml.default",:dest => "config/clearcaptcha.yml"}
   
 ].each do |file_hash|

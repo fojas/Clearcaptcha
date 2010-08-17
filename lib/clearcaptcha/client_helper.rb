@@ -26,7 +26,7 @@ module Clearcaptcha
         @script_inline << File.open(File.join(File.dirname(__FILE__), '../../public/javascripts/clearcaptcha.js')).read
         @script_inline << %{</script>}    
       else
-        @script_inline << javascript_include_tag( "clearcaptcha/clearcaptcha.js") 
+        @script_inline << javascript_include_tag( "clearcaptcha.js") 
       end
       @script_inline   
     end
