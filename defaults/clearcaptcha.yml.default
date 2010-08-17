@@ -14,7 +14,7 @@ defaults: &defaults
       points: 1
       max: 2
   max_points: 3
-  js_type: inline
+  js_type: include
     
 development:
   <<: *defaults
